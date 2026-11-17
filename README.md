@@ -4,7 +4,7 @@ An n8n workflow for a preliminary security review of a SaaS or AI vendor based o
 
 The output is a **preliminary recommendation**, not an audit. The final decision is always made by a person.
 
-![Workflow canvas](docs/screenshots/01-canvas.png)
+<img width="1132" height="294" alt="Знімок екрана 2026-11-17 о 21 27 35" src="https://github.com/user-attachments/assets/3a5e34f7-9fa1-4671-8e91-cb6bfb51fb0b" />
 
 ---
 
@@ -28,8 +28,6 @@ flowchart LR
     I --> J[Save to register<br/>Google Sheets, append-only]
     J --> K[Send review<br/>Telegram]
 ```
-<img width="1132" height="294" alt="Знімок екрана 2026-11-17 о 21 27 35" src="https://github.com/user-attachments/assets/3a5e34f7-9fa1-4671-8e91-cb6bfb51fb0b" />
-
 
 ## How it works
 
